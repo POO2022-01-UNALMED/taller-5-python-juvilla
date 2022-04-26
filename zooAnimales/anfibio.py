@@ -25,5 +25,5 @@ class Anfibio (Animal):
         A=Anfibio(nombre,edad,"selva",genero,"negro y amarillo",False)
         cls.salamandras+=1
     @classmethod
-    def cantidadAnfibios():
+    def cantidadAnfibios(cls):
         return len(Anfibio._listado)
