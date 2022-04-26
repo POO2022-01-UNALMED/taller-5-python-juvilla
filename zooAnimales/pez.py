@@ -19,11 +19,11 @@ class Pez(Animal):
     @classmethod
     def crearSalmon(cls,nombre,edad,genero):
         A=Pez(nombre,edad,"oceano",genero,"rojo",6)
-        salmones+=1
+        cls.salmones+=1
     @classmethod
     def crearBacalao(cls,nombre,edad,genero):
         A=Pez(nombre,edad,"oceano",genero,"gris",6)
-        bacalao+=1
+        cls.bacalao+=1
     @classmethod
     def cantidadPeces(cls):
         return len(Pez._listado)
