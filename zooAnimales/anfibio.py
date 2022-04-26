@@ -17,11 +17,11 @@ class Anfibio (Animal):
     def setVenenoso(self,v):
         self._venenoso=v
     @classmethod
-    def crearRana(nombre,edad,genero):
+    def crearRana(cls,nombre,edad,genero):
         A=Anfibio(nombre,edad,"selva",genero,"rojo",True)
         cls.ranas+=1
     @classmethod
-    def crearSalamandra(nombre,edad,genero):
+    def crearSalamandra(cls,nombre,edad,genero):
         A=Anfibio(nombre,edad,"selva",genero,"negro y amarillo",False)
         cls.salamandras+=1
     @classmethod
