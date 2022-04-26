@@ -18,12 +18,12 @@ class Mamifero(Animal):
         self._patas=pt
     @classmethod
     def crearCaballo(cls,nombre,edad,genero):
-        A=Animal(nombre,edad,"pradera",genero,True,4)
+        A=Mamifero(nombre,edad,"pradera",genero,True,4)
         caballos+=1
 
     @classmethod
     def crearLeon(cls,nombre,edad,genero):
-        A=Animal(nombre,edad,"selva",genero,True,4)
+        A=Mamifero(nombre,edad,"selva",genero,True,4)
         leones+=1
 
     @classmethod
