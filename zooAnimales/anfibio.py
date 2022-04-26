@@ -12,7 +12,7 @@ class Anfibio (Animal):
         return self._colorPiel
     def setColorPiel(self,cpi):
         self._colorPiel=cpi
-    def getVenenoso(self):
+    def isVenenoso(self):
         return self._venenoso
     def setVenenoso(self,v):
         self._venenoso=v
